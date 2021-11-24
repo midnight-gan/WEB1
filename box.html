@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            /*
+            block level element - 전체 영역을 가짐
+            display:inline; 과 같이 속성 설정해서 바꿀 수 있음.
+            display:none; 은 아예 안보이게 할 수 있음.
+            */
+            h1{
+                border-width: 5px;
+                border-color: red;
+                border-style: solid;
+            }
+             /*
+            inline element - 자기 자신의 부피만을 가짐
+            */
+            a{
+                border-width: 5px;
+                border-color: red;
+                border-style: solid;
+            }
+            /*
+            위의 두 코드는 아래와 같은 형식으로 축약할 수 있다.
+            */
+            h1, a{
+                border: 3px green groove;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        Cascading Style Sheets(<a href="https://ko.wikipedia.org/wiki/CSS">CSS</a>) is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents.These pages contain information on how to learn and use CSS and on available software. They also contain news from the CSS working group.
+    </body>
+</html>
